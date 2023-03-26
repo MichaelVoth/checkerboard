@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    text-align: center;
+    font-size: 3rem;
+
+}
+
+#container {    /* Flex container */
+    display: flex;
+    justify-content: center;
+}
+
+#checkerboard {   /* Space where boxes are made */
+    width: auto;
+
+
+}
+
+.play_row {
+    display: flex;
+}
+
+.red_box {     /* The box that is created. Default is skyblue */
+    height: 150px;
+    width: 150px;
+    background-color: red;
+    border: black solid 3px;
+}
+.black_box {     /* The box that is created. Default is skyblue */
+    height: 150px;
+    width: 150px;
+    background-color: black;
+    border: black solid 3px;
+}
